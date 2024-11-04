@@ -1,0 +1,19 @@
+{
+  "name": "auto-testing",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000a\u0000u\u0000t\u0000o\u0000-\u0000t\u0000e\u0000s\u0000t\u0000i\u0000n\u0000g\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "unit": "vitest",
+    "ui": "npx playwright test tests/ui",
+    "api": "npx playwright test tests/api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.7.9",
+    "vitest": "^2.1.3"
+  }
+}
